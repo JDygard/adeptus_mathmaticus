@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.units-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.units-form:first-of-type {
+  margin-left: 10%;
+}
+
+.number-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.number-input__button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.number-input__value {
+  padding: 5px;
+}
+
+.attackAbilities {
+  display: flex;
+  gap: 10px;
+}
+
+.attackAbilitiesDiv {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.attacker {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
